@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: silver;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    background-color:#c0c0c0d1;
+   padding: 17px;
+   box-shadow: 0px 2px 2px 2px;
+}
+ul{
+    margin-right: 45px;
+    margin-top: 7px;
+}
+.logo h1{
+    margin-right: 22px;
+    font-size: 28px;
+    margin-top:17px ;
+    color: #6f0c0c;
+}
+
+nav ul li{
+    list-style: none;
+    margin-top: 17px;
+}
+ul li a{
+    margin-inline: 22px;
+    font-size: 20px;
+   
+}
+ul li i{
+    font-size: 22px;
+}
+/* ul li #home{
+    color: #0ba2a2;
+} */
+ul li a:hover{
+    border-bottom:2px solid #0ba2a2;
+    cursor:pointer;
+} 
+ul li i:hover{
+    border-bottom:2px solid #0ba2a2;
+    cursor:pointer;
+}
+.main{
+    display: flex;
+    justify-content:space-around;
+}
+.main .maintext{
+    margin-top: 144px;
+    padding: 55px;
+   
+}
+.maintext h1{
+    font-size: 64px;
+}
+.maintext .top{
+    color:goldenrod;
+}
+.maintext h2{
+    font-size: 38px;
+    padding-bottom: 30px;
+    color: #6f0c0c;
+}
+.maintext p{
+    color: #6f0c0c;
+    
+}
+.maintext button{
+    width: 145px;
+    height: 40px;
+    background-color: #6f0c0c;
+    border:none;
+    font-size:22px;
+    color: goldenrod;
+    margin-top: 24px;
+}
+.maintext button:hover{
+    border:2px solid grey;
+    background-color: transparent;
+}
+.trend .head{
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+.head span{
+    color:#6f0c0c;
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+}
+.card .crd{
+    width:350px;
+    height: 500px;
+    /* padding: 22px; */
+    background-color: bisque;
+    margin-inline: 11px;
+}
+
+.crd:hover{
+    transition: 0.6s ease-out;
+    width: 370px;
+    height:520px;
+}
+
+.crd img{
+    width: 300px;
+    height: 350px;
+    padding: 22px;
+    border-radius: 31px;
+}
+.crdtext{
+    margin-left:16px;
+    padding: 8px;
+}
+.crdtext button{
+  width: 110px;
+  height: 33px;
+  border: none;
+  background-color: burlywood;
+  border: 2px solid brown;
+  font-size:15px;
+  margin-top: 11px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    margin-inline:22px ;
+    border-radius: 11px;
+    
+   
+}
+
+.blog img{
+    width: 85%;
+    height: 300px;
+    padding: 22px;
+}
+.blogtext{
+    padding: 22px;
+    margin-top: 34px;
+}
+.blogtext a{
+    width: 120px;
+    color: black;
+    position: relative;
+    top:33px;
+    padding: 4px;
+    height: 80px;
+    background-color: burlywood;
+    font-size: 15px;
+    border: 2px solid brown;
+}
+.letter{
+    background-color:grey;
+    display: flex;
+    justify-content:space-between;
+    padding: 43px;
+}
+.inp{
+    display: flex;
+}
+.inp input{
+    width: 330px;
+    height: 33px;
+    border: 2px solid rgba(0, 0, 0, 0.851);
+    font-size: 18px;
+}
+.inp button{
+    width: 100px;
+    height: 36px;
+    outline: none;
+    font-size: 18px;
+   background-color: burlywood;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+.footer .footertext{
+    margin-inline: 85px;
+}
+.footertext p{
+    margin-top: 11px;
+}
+
+.about{
+    /* not show bwfore click on about us */
+    display: none;
+}
+.contact{
+    /* not show bwfore click on about us */
+    display: none;
+}
+
+.aboutus{
+    background-color: #a16868;
+    color: black;
+    padding: 56px;
+    font-size: 19px;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: silver;
+    padding: 33px;
+    margin-left: 30%;
+    margin-top: 7%;
+}
+.me img{
+    width: 54%;;
+    
+}
+.contactus{
+    background-color: #a16868;
+    color: black;
+    padding: 56px;
+    font-size: 19px;
+}
+.cme{    width: 54%;;
+        margin-inline :34px ;
+        display: flex;
+       justify-content: center;
+       margin-left: 30%;
+}
+
+
+.form{
+    
+    text-align: center;
+    margin-top: 5%;
+
+}
+.form input{
+    width: 300px;
+    padding: 5px;
+    height: 33px;
+    margin-top: 11px;
+    
+}
+.form button{
+    width: 300px;
+    height: 36px;
+    font-size: 22px;
+    margin-top: 22px;
+    background-color: black;
+    color: aliceblue;
+}
